@@ -12,7 +12,8 @@ int DELAY_TIME_MS = 600;
 int MAX_SIZE_OF_SNAKE = (BOX_SIZE * BOX_SIZE) / (SNAKE_WIDTH * SNAKE_WIDTH);
 int UP_DIR = 72, DOWN_DIR = 80, LEFT_DIR = 75 , RIGHT_DIR = 77;
 
-char WON_MESSAGE[10] = "You Won";
-char LOST_MESSAGE[10] = "You Lost";
+char WON_MESSAGE[8] = "You Won";
+char LOST_MESSAGE[9] = "You Lost";
+char TITLE_OF_APP[21] = "Snake Game by Rupesh";
 
 #endif

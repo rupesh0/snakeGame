@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    initwindow(getmaxwidth()/2, getmaxheight()/2);
+    initwindow(getmaxwidth()/2, getmaxheight()/2, TITLE_OF_APP);
 
     vector<vector<int>> visited { vector<int>{(TOP + BOTTOM)/2, (TOP + BOTTOM)/2}};
     int direction = RIGHT_DIR, tempDir;
