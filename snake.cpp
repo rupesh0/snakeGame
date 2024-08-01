@@ -37,7 +37,7 @@ int main() {
 
         if(locationToEat[0] == nextLocToVisit[0] && locationToEat[1] == nextLocToVisit[1]) {
             if(visited.size() == MAX_SIZE_OF_SNAKE) {
-                setExitScreen("You Won");
+                setExitScreen(WON_MESSAGE);
             }
             setLocationToEat(locationToEat, visited); 
         } else {
@@ -54,7 +54,7 @@ int main() {
         setvisualpage(1);
 
         if(isGameOver(visited)) {
-            setExitScreen("You Lost!");
+            setExitScreen(LOST_MESSAGE);
         }
         delay(DELAY_TIME_MS);         
     }
