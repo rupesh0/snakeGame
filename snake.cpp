@@ -1,5 +1,4 @@
 #include <graphics.h>
-#include <stdio.h>
 #include <vector>
 #include "constants.h"
 #include "helper.cpp"
